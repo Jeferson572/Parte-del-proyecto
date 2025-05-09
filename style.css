@@ -25,19 +25,25 @@ font-size: 60px;  /*Para poner tamaño especifico*/
 margin-bottom: 10px;  /*Para poner un espacio especifico*/
 }
 
-.button {
-color: white;
-border: none;
-padding: 12px 20px; /*Para poner un tamaño especifico*/
-border-radius: 8px;
-cursor: pointer;
-font-size: 15PX;
-background-color: #448c34;
-} 
-
 .message {
-    margin: 15px;
+  margin: 15px;
 }
+
+.button {
+  color: white;
+  border: none;
+  padding: 12px 20px; /*Para poner un tamaño especifico*/
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15PX;
+  background-color: #448c34;
+  } 
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
+
 
     /* body {
       font-family: Arial, sans-serif;
